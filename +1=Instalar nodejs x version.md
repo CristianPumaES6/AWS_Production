@@ -25,7 +25,7 @@ sudo apt-get update
 sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
 
 // Descargamos la version de node que deseamos
-curl -sL https://deb.nodesource.com/setup_10.x | sudo bash
+curl -sL https://deb.nodesource.com/setup_12.x | sudo bash
 
 // Actualizamos el apt-get y instalamos yarn
 sudo apt-get update && sudo apt-get install yarn
